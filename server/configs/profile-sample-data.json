@@ -1,0 +1,69 @@
+{
+    "_id": "S12345",
+    "additionalInfo": {
+      "bloodGroup": "O+",
+      "photo": "url_to_photo",
+      "altPhone": "+1-555-5678",
+      "email": "john.doe@example.com",
+      "nationality": "American",
+      "religion": "Christianity",
+      "languages": ["English", "Spanish"],
+      "hobbies": ["Reading", "Swimming"],
+      "address": {
+        "street": "123 Main St",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62704",
+        "country": "USA"
+      }
+    },
+    "parents": {
+      "father": {
+        "name": "Michael Doe",
+        "occupation": "Engineer",
+        "phone": "+1-555-2345",
+        "email": "michael.doe@example.com"
+      },
+      "mother": {
+        "name": "Jane Doe",
+        "occupation": "Teacher",
+        "phone": "+1-555-3456",
+        "email": "jane.doe@example.com"
+      },
+      "guardian": {
+        "name": "Emily Doe",
+        "relation": "Aunt",
+        "phone": "+1-555-4567",
+        "email": "emily.doe@example.com"
+      }
+    },
+    "academicInfo": {
+      "enrollmentDate": "2020-09-01",
+      "completionDate" : "NA",
+      "grade": "10",
+      "section": "A",
+      "rollNo": "10A-05",
+      "classroom": "101",
+      "previousSchool": "Springfield Elementary",
+      "activities": [
+        "Soccer"
+      ]
+    },
+    "adminInfo": {
+      "admissionNo": "ADM2024-05",
+      "admissionDate": "2020-09-01",
+      "status": "Active",
+      "scholarship": { "status":true, "type": "Merit", "amount": 1000, "renewalDate": "2024-08-30" },
+      "busRoute": "B12",
+      "libraryCard": "LIB12345",
+      "hostel": { "status":true, "name": "Green Dorm", "room": "101A" }
+    },
+    "documents": [
+      { "type": "Birth Certificate", "url": "url_to_birth_certificate" },
+      { "type": "Address Proof", "url": "url_to_address_proof" },
+      { "type": "Parent’s ID", "url": "url_to_parents_id_proof" },
+      { "type": "Medical Reports", "url": "url_to_medical_reports" },
+      { "type": "Transfer Certificate", "url": "url_to_transfer_certificate" }
+    ]
+  }
+  

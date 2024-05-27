@@ -1,0 +1,58 @@
+{
+    "UNKNOWN_ERROR" : {
+        "statusCode" : 500,
+        "faultCode" : "E000",
+        "message" : "Something went wrong! Please try again later"
+    },
+    "SYSTEM_ERROR" : {
+        "statusCode" : 500,
+        "faultCode" : "E001",
+        "message" : "Internal server error"
+    },
+    "ROUTE_NOT_FOUND" : {
+        "statusCode" : 404,
+        "faultCode" : "E002",
+        "message" : "Route is not found on the server"
+    },
+    "INVALID_ACCESS_TOKEN" : {
+        "statusCode" : 401,
+        "faultCode" : "E003",
+        "message" : "Invalid access token"
+    },
+    "INVALID_USER_ROLE" : {
+        "statusCode" : 401,
+        "faultCode" : "E004",
+        "message" : "Invalid user role"
+    },
+    "USER_FORBIDDEN" : {
+        "statusCode" : 403,
+        "faultCode" : "E005",
+        "message" : "You don't have the permisison to process this request."
+    },
+    "DUPLICATE_KEY_FOUND" : {
+        "statusCode" : 401,
+        "faultCode" : "E006",
+        "message" : "Duplicate key found in the request."
+    },
+    "CLIENT_NOT_FOUND" : {
+        "statusCode" : 404,
+        "faultCode" : "E007",
+        "message" : "Client is not found."
+    },
+    "ADMIN_NOT_FOUND": {
+        "statusCode" : 404,
+        "faultCode" : "E008",
+        "message" : "Admin is not found."
+    },
+    "ADMIN_INVALID_PASSWORD": {
+        "statusCode" : 404,
+        "faultCode" : "E009",
+        "message" : "Invalid Admin Password"
+    },
+    "MANDATORY_FIELDS_ARE_MISSING": {
+        "statusCode" : 404,
+        "faultCode" : "E010",
+        "message" : "Required mandatory field's are missing!"
+    }
+    
+}
